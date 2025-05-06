@@ -31,14 +31,19 @@ Conexão com a internet
 #Bash
 
 git clone https://github.com/fernandogssilva/Sentry_Scan.git
+
 cd Sentry_Scan
+
 chmod +x script_centOS9.sh
+
 sudo ./script_centOS9.sh
+
 :closed_lock_with_key: Acesso às Aplicações
 Após a instalação, consulte o arquivo /opt/cicd/acessos_cicd.txt para URLs e credenciais iniciais de todos os sistemas:
 
 bash
 cat /opt/cicd/acessos_cicd.txt
+
 :bulb: Uso do OWASP ZAP via Docker
 Para acessar o menu de operações do ZAP:
 
